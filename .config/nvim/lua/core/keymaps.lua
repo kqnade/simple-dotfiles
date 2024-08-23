@@ -8,7 +8,7 @@ map_callback = bind.map_callback
 
 -- plugins map
 local core_map = require("config.keymaps.coremap")
--- local plugins_map = require("keymaps.pluginsmap")
+local plugins_map = require("config.keymaps.pluginsmap")
 
 bind.nvim_load_mapping(core_map)
--- bind.nvim_load_mapping(plugins_map)
+bind.nvim_load_mapping(plugins_map)

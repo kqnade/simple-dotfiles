@@ -23,6 +23,7 @@ return {
     "ojroques/nvim-bufdel",
     lazy = true,
 	  cmd = { "BufDel", "BufDelAll", "BufDelOthers" },
+    config = require("config.plugins.tools.bufdel"),
   },
   {
     'nvim-telescope/telescope.nvim', tag = '0.1.6',
