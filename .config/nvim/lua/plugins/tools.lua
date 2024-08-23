@@ -20,6 +20,11 @@ return {
     keys = {"<C-e>"}
   },
   {
+    "ojroques/nvim-bufdel",
+    lazy = true,
+	  cmd = { "BufDel", "BufDelAll", "BufDelOthers" },
+  },
+  {
     'nvim-telescope/telescope.nvim', tag = '0.1.6',
       dependencies = { 'nvim-lua/plenary.nvim' }
   },
