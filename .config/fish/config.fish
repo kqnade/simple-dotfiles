@@ -2,6 +2,7 @@ if status is-interactive
   set fish_greeting 
   eval (/home/linuxbrew/.linuxbrew/bin/brew shellenv)
   mise activate fish | source
+  export GPG_TTY=(tty)
 end
 
 #aliases
