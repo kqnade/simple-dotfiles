@@ -1,11 +1,8 @@
 return {
   {
     'akinsho/toggleterm.nvim', cmd = 'ToggleTerm',
-    version = "*",
-    config = function()
-      require("toggleterm").setup{}
-    end
-  },
+    config = require("config.plugins.tools.toggleterm"),
+    },
   {
     "nvim-neo-tree/neo-tree.nvim",
     keys = {
@@ -15,14 +12,7 @@ return {
       "MunifTanjim/nui.nvim",
       "nvim-lua/plenary.nvim",
     },
-    config = function()
-      require("neo-tree").setup({
-        source_selector = {
-            winbar = true,
-            statusline = true
-        }
-    })
-    end,
+    config = require("config.plugins.tools.neo-tree"),
   },
   {
     "simeji/winresizer",

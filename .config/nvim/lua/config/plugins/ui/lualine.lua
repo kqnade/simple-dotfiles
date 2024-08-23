@@ -1,6 +1,6 @@
 return function()
   require('lualine').setup {
-        options = { 
+        options = {
           theme = 'auto',
           component_separators = { left = '', right = '' },
           section_separators = { left = '', right = '' },
