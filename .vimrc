@@ -52,11 +52,12 @@ nnoremap st :<C-u>tabnew<CR>
 nnoremap sn gt
 nnoremap sp gT
 nnoremap sq :<C-u>q<CR>
-
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
+" keybind for terminal
+tnoremap <ESC> <C-\><C-n>
 
 
 " fugitive settings
