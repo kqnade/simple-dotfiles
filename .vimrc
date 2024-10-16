@@ -53,6 +53,11 @@ nnoremap sn gt
 nnoremap sp gT
 nnoremap sq :<C-u>q<CR>
 
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+
 
 " fugitive settings
 autocmd QuickFixCmdPost *grep* cwindow
@@ -106,6 +111,7 @@ set tabstop=2
 set shiftwidth=2
 set smarttab
 set whichwrap=b,s,h,l,<,>,[,]
+set fillchars+=vert:\
 
 syntax on
 
